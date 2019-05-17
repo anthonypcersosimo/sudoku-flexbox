@@ -1,0 +1,40 @@
+/* CSS Goes Here! */
+.box-1 { background-color: #1abc9c}
+.box-2 { background-color: #3498db}
+.box-3 { background-color: #9b59b6}
+.box-4 { background-color: #34495e}
+.box-5 { background-color: #f1c40f}
+.box-6 { background-color: #e67e22}
+.box-7 { background-color: #e74c3c}
+.box-8 { background-color: #2ecc71}
+.box-9 { background-color: #16a085}
+.box-10 { background-color: #a0167d}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    border: 10px solid goldenrod;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 60vw;
+    margin-top: 120px;
+}
+
+.games {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    width: calc(33.333333% - 4px);
+}
+
+.box {
+    color: white;
+    padding: 10px;
+    font-size: 35pt;
+    border: 1px dashed black;
+    min-width: calc(33.3333333% - 22px);
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 2px 2px rgb(90, 89, 89);
+}
