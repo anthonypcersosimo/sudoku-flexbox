@@ -1,3 +1,4 @@
+// Javascript goes here!
 window.onload = function() {
     for (i = 1; i <= 27; i++) {
         var newBoxes = $("<div>")
